@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orcaron.nfc_taperr.WriterPadActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/txtV_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/message_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edtTxt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtV_1"
+        android:layout_below="@+id/txtV_1"
+        android:layout_marginTop="59dp"
+        android:hint="@string/write_hint"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edtTxt_1"
+        android:layout_toRightOf="@+id/txtV_1"
+        android:text="@string/wri_ter" />
+
+</RelativeLayout>

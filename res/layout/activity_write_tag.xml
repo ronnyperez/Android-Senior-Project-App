@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.orcaron.nfc_taperr.WriteTagActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/write_tag" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_4"
+        android:layout_below="@+id/btn_4"
+        android:layout_marginTop="78dp"
+        android:text="@string/erase_tag" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_5"
+        android:layout_below="@+id/btn_5"
+        android:layout_marginTop="80dp"
+        android:text="@string/lock_tag" />
+
+</RelativeLayout>
